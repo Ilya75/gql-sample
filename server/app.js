@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 // const { graphqlHTTP } = require('express-graphql');
 const graphqlHTTP = require('express-graphql').graphqlHTTP;
 
-mongoose.connect('mongodb+srv://gq-user:Qwe123@sandbox.l7iwm.mongodb.net/gq-course?retryWrites=true&w=majority',
+mongoose.connect('<mongodburl>',
 {                     
     useNewUrlParser: true,
     useUnifiedTopology: true
